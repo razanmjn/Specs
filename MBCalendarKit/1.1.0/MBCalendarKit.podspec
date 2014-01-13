@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '6.0'
   s.source       = { :git => "https://github.com/MosheBerman/MBCalendarKit.git", :tag => "1.1.0"} 
   s.source_files  = 'Classes', 'MBCalendarKit/CalendarKit/*.{h,m}'
-  s.frameworks = 'QuartzCore', 'AnotherFramework'
+  s.frameworks = 'QuartzCore'
   s.requires_arc = true
 end
